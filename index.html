@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#addStudent">Add Student</a></li>
+            <li><a href="#viewStudents">View Students</a></li>
+        </ul>
+    </nav>
+
+    <section id="addStudent">
+        <h2>Add Student</h2>
+        <form>
+            <label for="studentName">Name:</label>
+            <input type="text" id="studentName" name="studentName"><br>
+
+            <label for="studentID">ID:</label>
+            <input type="text" id="studentID" name="studentID"><br>
+
+            <label for="studentEmail">Email:</label>
+            <input type="email" id="studentEmail" name="studentEmail"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="viewStudents">
+        <h2>View Students</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>12345</td>
+                <td>john@example.com</td>
+            </tr>
+            <!-- Add more rows for additional students -->
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Student Management System</p>
+    </footer>
+
+</body>
+
+</html>
